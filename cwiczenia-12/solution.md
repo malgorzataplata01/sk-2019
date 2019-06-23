@@ -51,3 +51,5 @@ WI FI
 
 ### Routing
 ``ip route add default via 10.0.0.0/28``
+
+dla każdego komputera default route to router znajdujący się na odpowiadającym piętrze
