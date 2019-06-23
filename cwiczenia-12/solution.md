@@ -5,6 +5,8 @@
 * serwer główny - 188.156.220.161/28
 * serwer - brama sieci lan - 188.156.220.162/28
 * serwer WI-FI - 188.156.220.163/28
+
+
 -Utworzenie na każdym piętrze routera, do którego będzie kierowany ruch z każdego laboratorium, który następnie będzie kierowany do serwera-bramy
 ![diagram](diagram3.jpg)
 
@@ -12,7 +14,8 @@
 
 ### Ustawienie statycznego ip
  ``iface eth0 inet static``
-##Tablica trasowania
+ 
+### Tablica trasowania
 
 SALE: 
 
