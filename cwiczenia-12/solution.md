@@ -8,7 +8,7 @@
 
 
 -Utworzenie na każdym piętrze routera, do którego będzie kierowany ruch z każdego laboratorium, który następnie będzie kierowany do serwera-bramy
-![diagram](projektSieci.png)
+![diagram](Projektsieci.png)
 
 ## Konfiguracja
 
