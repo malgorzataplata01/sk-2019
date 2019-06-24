@@ -14,10 +14,10 @@ Rozwiązanie:
 ---------
 Podział sieci 
 -------------
-| sieć | adres |
-|:-----|:------|
-| LAN1 | 172.22.160.0/23 |
-| LAN2 | 172.22.128.0/19 |
+| sieć | adres |zapewnia adresów|
+:------|:------|:------|
+| LAN1 | 172.22.160.0/23 |510|
+| LAN2 | 172.22.128.0/19 |8190|
 
 PC0
 ---
@@ -39,11 +39,24 @@ PC2
 |:-------------| :------| 
 | eth0 | 172.22.128.2/19 |
 
---------------
-Ustawienie adresów IP 
 ---
-ip addr add (adres) dev (interfejs) 
-Umożliwienie przekazywania adresów IP w PC0
+Skonfigurowanie interfejsów
+---
+Przykładowo dla PC0: 
+
+plik: /etc/network/interfaces:
+auto enp0s8 
+iface enp0s8 inet static 
+address 172.22.160.1 
+netmask 255.255.254.0 
+
+auto enp0s9 
+iface enp0s9 inet static 
+address 172.22.128.1 
+netmask 255.255.224.0 
+
+
+Umożliwienie przekazywania pakietów w PC0
 ---
 tymczasowo:  echo 1 > /proc/sys/net/ipv4/ip_forward ,  na stałe: sysctl -w net.ipv4.ip_forward=1
 
