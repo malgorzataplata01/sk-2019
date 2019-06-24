@@ -55,6 +55,8 @@ iface enp0s9 inet static
 address 172.22.128.1 
 netmask 255.255.224.0 
 
+Lub tymczasowo:
+ip addr add (adres) dev (interfejs)
 
 Umożliwienie przekazywania pakietów w PC0
 ---
