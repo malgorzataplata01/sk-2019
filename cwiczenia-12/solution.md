@@ -1,6 +1,8 @@
 
 ## Rozwiązanie
+
 -Podział sieci 188.156.226.160/27 na dwie podsieci: przeznaczoną na obsługę sal i przeznaczoną na obsługę wi-fi
+
 -Utworzenie serwerowni:
 * serwer główny - 188.156.220.161/28
 * serwer - brama sieci lan - 188.156.220.162/28
@@ -13,12 +15,13 @@
 ## Konfiguracja
 
 ### Ustawienie statycznego ip
- ``w pliku: /etc/network/interfaces: auto (interfejs) iface (interfejs) inet static address (adres) netmask (maska)
+
+w pliku: /etc/network/interfaces: auto (interfejs) iface (interfejs) inet static address (adres) netmask (maska)
 
 sudo ifdown (interfejs) && sudo ifup (interfejs)
 
 Lub tymczasowo: ip addr add (adres) dev (interfejs)
- ``
+
 ### Tablica trasowania
 
 SALE: 
