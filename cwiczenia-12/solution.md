@@ -13,8 +13,12 @@
 ## Konfiguracja
 
 ### Ustawienie statycznego ip
- ``iface eth0 inet static``
- 
+ ``w pliku: /etc/network/interfaces: auto (interfejs) iface (interfejs) inet static address (adres) netmask (maska)
+
+sudo ifdown (interfejs) && sudo ifup (interfejs)
+
+Lub tymczasowo: ip addr add (adres) dev (interfejs)
+ ``
 ### Tablica trasowania
 
 SALE: 
