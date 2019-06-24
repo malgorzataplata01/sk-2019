@@ -55,6 +55,8 @@ iface enp0s9 inet static
 address 172.22.128.1 
 netmask 255.255.224.0 
 
+sudo ifdown (interfejs) && sudo ifup (interfejs)
+
 Lub tymczasowo:
 ip addr add (adres) dev (interfejs)
 
