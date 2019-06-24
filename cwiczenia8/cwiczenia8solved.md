@@ -13,6 +13,10 @@ Rozwiązanie:
 ---------
 
 ![diagram](Diagram1.png)
+![konfiguracja](konfiguracja w PC0.png)
+![konfiguracja1](konfiguracjaadresowpc1.png)
+![konfiguracja2](konfiguracjadnswpc1.png)
+![konfiguracja3](pingowaniepc1.png)
 ---------
 Podział sieci 
 -------------
