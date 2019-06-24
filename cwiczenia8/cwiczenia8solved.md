@@ -1,7 +1,6 @@
 Zadanie 1
 ---------
 
-![zadanie 1](zadanie-1.svg)
 
 1. Zaprojektuj oraz przygotuj prototyp rozwiązania z wykorzystaniem oprogramowania ``VirtualBox`` lub podobnego. 
 Zaproponuj rozwiązanie spełniające poniższe wymagania:
@@ -11,6 +10,9 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    * Przygotuj dokumentację powyższej architektury w formie graficznej w programie ``DIA``
 ---------
 Rozwiązanie:
+---------
+
+![diagram](Diagram1.png)
 ---------
 Podział sieci 
 -------------
