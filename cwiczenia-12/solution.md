@@ -37,7 +37,7 @@ WI FI
 | 10.3.0.0/22| default| 10.0.0.0 |
 | |10.0.0.0 | 188.156.220.178.0/28 |
 
-### Umożliwienie forwardowania ip dla : Serwer główny, Brama główna, Serwer wi-fi 
+### Umożliwienie forwardowania pakietów 
 ``plik: /etc/sysctl.d/99-sysctl.conf   net.ipv4.ip_forward=1``
 
 
